@@ -1,0 +1,128 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+  align-items: center;
+}
+
+.body_background {
+  background-color: #e6e6e6;
+  }
+
+.transform_banner {
+  display: block; /*Without this, a class cannot center the div container in the center of the page properly using the margin auto*/
+  margin: auto;
+  width: 1920px;
+  height: 378.287px;
+  border: 0px solid white;
+}
+
+/*NAVIGATION BAR RECTANGLE*/
+.navigation_bar {
+    width: 1920px;
+    height: auto;
+    background-color: #000000;
+    border: 0px solid white;
+    border-radius: 0px;
+    margin: auto;
+}
+
+.webpagewrapper {
+    width: 1920px;
+    height: auto;
+    border: 0px solid white;
+    border-radius: 0px;
+    margin: auto;
+    background-color: #ffffff;
+    
+}
+
+/*NAVIGATION BAR BUTTONS*/
+
+.home {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+    border: 0px solid white;
+    border-radius: 0px;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.about_me {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+    border: 0px solid white;
+    border-radius: 0px;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.browse_shop {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+    border: 0px solid white;
+    border-radius: 0px;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.contact {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+    border: 0px solid white;
+    border-radius: 0px;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.blog {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+    border: 0px solid white;
+    border-radius: 0px;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.my_portfolio {
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #000000;
+    border: 0px solid white;
+    border-radius: 0px;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
