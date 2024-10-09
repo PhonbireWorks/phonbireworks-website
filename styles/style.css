@@ -134,7 +134,7 @@ body {
     overflow-x: auto;
     white-space: nowrap;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: #000000;
     position: relative;
     z-index: 1;
 }
@@ -165,3 +165,7 @@ body {
     display: block; /* Show on hover */
 }
 /* SCROLL CONTAINER ENDS */
+
+
+
+
