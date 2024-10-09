@@ -67,100 +67,100 @@
     </p>
     </div>
     
-    <!--GALLERY SCROLLER STARTS-->
-  <div class="scroll-container" style="display: block; overflow-y: auto; width: 1900px; height: 400px; margin: auto">
-    <div class="image-wrapper">
-      <img src="debug.png" alt="RESUME TEMPLATES">
-      <div class="preview-text">RESUME TEMPLATES</div>
+    <!--GALLERY SCROLL CONTAINER STARTS-->
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .gallery-container {
+        position: relative;
+        width: 500px; /* Set the width to the size of one image */
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .gallery {
+        display: flex;
+        transition: transform 0.5s ease;
+        animation: scroll 10s linear infinite;
+    }
+
+    .gallery img {
+        width: 500px; /* Ensure each image takes up the full width of the container */
+        flex-shrink: 0;
+    }
+
+    .nav-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .nav-button.left {
+        left: 0;
+    }
+
+    .nav-button.right {
+        right: 0;
+    }
+
+    @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-200%);
+            }
+        }
+
+</style>
+
+<body>
+<div class="gallery-container">
+    <button class="nav-button left" id="scrollLeft">&#10094;</button>
+    <div class="gallery" id="gallery">
+        <img src="debug.png" alt="Image 1">
+        <img src="debug.png" alt="Image 2">
+        <img src="mugshot.png" alt="Image 3">
+        <!-- Add more images as needed -->
     </div>
-    <div class="image-wrapper">
-        <img src="debug.png" alt="CALENDARS">
-        <div class="preview-text">CALENDARS</div>
-    </div>
-    <div class="image-wrapper">
-        <img src="debug.png" alt="JOURNALS">
-        <div class="preview-text">JOURNALS</div>
-    </div>
-    <div class="image-wrapper">
-        <img src="debug.png" alt="DESK PADS">
-        <div class="preview-text">DESK PADS</div>
-    </div>
-    <div class="image-wrapper">
-      <img src="debug.png" alt="SPREADSHEETS">
-      <div class="preview-text">SPREADSHEETS</div>
-  </div>
-  <div class="image-wrapper">
-    <img src="debug.png" alt="DAILY PLANNERS">
-    <div class="preview-text">DAILY PLANNERS</div>
+    <button class="nav-button right" id="scrollRight">&#10095;</button>
 </div>
-<div class="image-wrapper">
-  <img src="debug.png" alt="FORMS">
-  <div class="preview-text">FORMS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="VECTOR GRAPHIC ELEMENT PACKS">
-<div class="preview-text">VECTOR GRAPHIC ELEMENT PACKS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="BROCHURES">
-<div class="preview-text">BROCHURES</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="BUSINESS CARDS">
-<div class="preview-text">BUSINESS CARDS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="SLIDESHOW TEMPLATES">
-<div class="preview-text">SLIDESHOW TEMPLATES</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="FONTS">
-<div class="preview-text">FONTS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="E-BOOKS">
-<div class="preview-text">E-BOOKS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="MEAL PLANNING CALENDARS">
-<div class="preview-text">MEAL PLANNING CALENDARS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="HOME CLEANING CHECKLISTS">
-<div class="preview-text">HOME CLEANING CHECKLISTS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="SOCIAL MEDIA POST TEMPLATES">
-<div class="preview-text">SOCIAL MEDIA POST TEMPLATES</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="BIRTHDAY CARDS">
-<div class="preview-text">BIRTHDAY CARDS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="BABY SHOWER INVITATIONS">
-<div class="preview-text">BABY SHOWER INVITATIONS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="WEDDING INVITATIONS">
-<div class="preview-text">WEDDING INVITATIONS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="MINECRAFT SKIN PACKS">
-<div class="preview-text">MINECRAFT SKIN PACKS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="MINECRAFT TEXTURE PACKS">
-<div class="preview-text">MINECRAFT TEXTURE PACKS</div>
-</div>
-<div class="image-wrapper">
-<img src="debug.png" alt="MINECRAFT MAPS">
-<div class="preview-text">MINECRAFT MAPS</div>
-</div>
-    <!-- Add more images as needed -->
-</div>
-<!--GALLERY SCROLLER ENDS-->
-    
+<script>
+    const gallery = document.getElementById('gallery');
+    const images = document.querySelectorAll('.gallery img');
+    let currentIndex = 0;
+
+    document.getElementById('scrollLeft').addEventListener('click', () => {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateGallery();
+        }
+        console.log('Scroll Left:', currentIndex);
+    });
+
+    document.getElementById('scrollRight').addEventListener('click', () => {
+        if (currentIndex < images.length - 1) {
+            currentIndex++;
+            updateGallery();
+        }
+        console.log('Scroll Right:', currentIndex);
+    });
+
+    function updateGallery() {
+        const offset = -currentIndex * 500; // Adjust based on image width
+        gallery.style.transform = `translateX(${offset}px)`;
+        console.log('Update Gallery:', offset);
+    }
+</script>
+<!--GALLERY SCROLL CONTAINER ENDS-->
     
     
     

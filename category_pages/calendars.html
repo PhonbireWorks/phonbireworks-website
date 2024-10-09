@@ -55,10 +55,106 @@
   <div class="webpagewrapper"><!--Webpage Sub-Background Style-->
   
   <br>
+
+
+
+
+<div style="width: 1920px; height: auto; background-color: #ffffff">
+
+<!--GALLERY SCROLL CONTAINER STARTS-->
+<style>
+  body {
+      font-family: Arial, sans-serif;
+  }
+
+  .gallery-container {
+      position: relative;
+      width: 400px; /* Set the width to the size of one image */
+      margin: auto;
+      overflow: hidden;
+  }
+
+  .gallery {
+      display: flex;
+      transition: transform 0.5s ease;
+  }
+
+  .gallery img {
+      width: 400px; /* Ensure each image takes up the full width of the container */
+      flex-shrink: 0;
+  }
+
+  .nav-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 1;
+  }
+
+  .nav-button.left {
+      left: 0;
+  }
+
+  .nav-button.right {
+      right: 0;
+  }
+</style>
+
+<body>
+<div class="gallery-container" style="display: inline-block; margin-left: 25px; margin-top: 25px; margin-bottom: 25px; margin-right: 25px">
+  <button class="nav-button left" id="scrollLeft">&#10094;</button>
+  <div class="gallery" id="gallery">
+      <img src="../debug.png" alt="Image 1">
+      <img src="../debug.png" alt="Image 2">
+      <img src="../mugshot.png" alt="Image 3">
+      <!-- Add more images as needed -->
+  </div>
+  <button class="nav-button right" id="scrollRight">&#10095;</button>
+</div>
+<script>
+  const gallery = document.getElementById('gallery');
+  const images = document.querySelectorAll('.gallery img');
+  let currentIndex = 0;
+
+  document.getElementById('scrollLeft').addEventListener('click', () => {
+      if (currentIndex > 0) {
+          currentIndex--;
+          updateGallery();
+      }
+      console.log('Scroll Left:', currentIndex);
+  });
+
+  document.getElementById('scrollRight').addEventListener('click', () => {
+      if (currentIndex < images.length - 1) {
+          currentIndex++;
+          updateGallery();
+      }
+      console.log('Scroll Right:', currentIndex);
+  });
+
+  function updateGallery() {
+      const offset = -currentIndex * 400; // Adjust based on image width
+      gallery.style.transform = `translateX(${offset}px)`;
+      console.log('Update Gallery:', offset);
+  }
+</script>
+<!--GALLERY SCROLL CONTAINER ENDS-->
+<div style="border: 2px solid black; border-radius: 40px; width: 1200px; height: 400px; display: inline-block; background-color: #ffffff; margin-top: 25px; margin-bottom: 25px">
+  
+</div>
+
+</div>
+
+
   
   
   <!--WELCOME TO MY WEBSITE!-->
-  <div style="border: 0px solid black; border-radius: 10px; width: 1600px; height: auto; background-color: #666666; margin: auto">
+  <div style="border: 2px solid black; border-radius: 10px; width: 1600px; height: auto; background-color: #666666; margin: auto">
     
     <p style="font-size: 20px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 0px; padding-left: 25px"><b>Browse My Calendars (Made with Inkscape)</b></p>
     
