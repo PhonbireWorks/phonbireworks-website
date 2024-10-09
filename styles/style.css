@@ -126,3 +126,42 @@ body {
     margin-left: 25px;
     margin-right: 25px;
 }
+
+
+/* SCROLL CONTAINER STARTS */
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #f0f0f0;
+    position: relative;
+    z-index: 1;
+}
+
+.image-wrapper {
+    position: relative;
+    margin-right: 10px; /* Use this to change the margin between your gallery scroll pics */
+}
+
+.image-wrapper img { /* Use this to change the size of your gallery scroll pics */
+    height: 400px; 
+}
+
+.preview-text { /* Use this to change properties of the gallery scroll preview text */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+    display: none; /* Initially hidden */
+    z-index: 1;
+}
+
+.image-wrapper:hover .preview-text { /* Pseudo class to activate the hover preview functionality of the gallery scroll */
+    display: block; /* Show on hover */
+}
+/* SCROLL CONTAINER ENDS */
