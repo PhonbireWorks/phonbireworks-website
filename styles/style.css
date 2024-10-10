@@ -177,3 +177,42 @@ body {
     display: block; /* Show on hover */
 }
 /* SCROLL CONTAINER ENDS */
+
+
+
+/* THIS SETS THE SIZE OF THE PRODUCTS IN THE PRODUCT CATEGORIES_FOLDER */
+.scroll-container2 {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: #000000;
+    position: relative;
+    z-index: 1;
+}
+
+.image-wrapper2 {
+    position: relative;
+    margin-right: 10px; /* Use this to change the margin between your gallery scroll pics */
+}
+
+.image-wrapper2 img { /* Use this to change the size of your gallery scroll pics */
+    height: 600px; 
+}
+
+.preview-text2 { /* Use this to change properties of the gallery scroll preview text */
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 16px;
+    display: none; /* Initially hidden */
+    z-index: 1;
+}
+
+.image-wrapper2:hover .preview-text2 { /* Pseudo class to activate the hover preview functionality of the gallery scroll */
+    display: block; /* Show on hover */
+}/* THIS SETS THE SIZE OF THE PRODUCTS IN THE PRODUCT CATEGORIES_FOLDER */
