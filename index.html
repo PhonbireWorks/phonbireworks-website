@@ -20,12 +20,10 @@
         }
         
     </style>
-    
-    
   </head>
   
   <!--WEBPAGE MAIN BACKGROUND STYLE SETTINGS-->
-  <body class="body_background">
+  <body class="body_background" onload="promptMobileVersion()">
   
    <div class="sticky"><!--STICKY-->
   
@@ -55,66 +53,64 @@
     
   <!--WEBPAGE CONTENT STARTS-->
   
-  <div class="webpagewrapper"><!--Webpage Sub-Background Style-->
-  
-  <br><br><br>
-  <img src="mugshot.png" alt="Warren Van Zuydam" style="margin-left: 835px"><!--MY MUGSHOT-->
-  <br><br><br>
-
-
+  <div class="webpagewrapper" style="margin-top: -80px"><!--Webpage Sub-Background Style-->
   
 
-  
-  <!--WELCOME TO MY WEBSITE!-->
-  <div style="border: 2px solid black; border-radius: 0px; width: 1500px; height: auto; background-color: #ffffff; margin: auto"><!--About Me rectangle background-->
-    
-    <p style="font-size: 20px; text-align: center; color:#000000; padding-top: 25px; padding-bottom: 0px; padding-left: 25px"><b>WELCOME TO MY WEBSITE!</b></p><br>
-    
-    <p style="font-size: 20px; text-align: center; color:#000000; padding-top: 0px; padding-bottom: 25px; padding-left: 25px">
-   This website is used to host my portfolio, digital products, services, and anything else I feel like. PhonbireWorks is my online business name.<br><br>
-   <b>PLEASE NOTE:</b><br>
-   This is a PERSONAL website, NOT a professional, corpo website! We are chilled here. Corpo websites are in anyway boring. This website was coded by hand, by me, in HTML and CSS.
-   <br><br> Anyway... Enjoy your stay!
-    </p>
-    </div>
-    
-    <br>
-    
-  <!--ABOUT ME-->
-  <div style="border: 2px solid black; border-radius: 0px; width: 1500px; height: auto; background-color: #ffffff; margin: auto"><!--About Me rectangle background-->
-    
-    <p style="font-size: 20px; text-align: center; color:#000000; padding-top: 25px; padding-bottom: 0px; padding-left: 25px"><b>ABOUT ME</b></p><br>
-    
-    <p style="font-size: 20px; text-align: center; color:#000000; padding-top: 0px; padding-bottom: 25px; padding-left: 25px">
-    My name is Warren Van Zuydam. I'm a self-taught graphic designer and web developer, who sells digital templates, print on demand,
-    and I offer services for custom vector graphic projects. So I basically run my own little business on this website. Check out the "Browse shop" tab to find out exactly what I offer. Email me at phonbireworks@gmail.com for custom projects. If you have any
-    suggestions or feedback to give, then you can send me an email, and I'll be happy to take a look at how I can
-    improve the experience for you. This website was made by me, for you. Feel free to stick around, and follow my socials. Let's build a tight-knit community :)
-    </p>
-    </div>
-    
-    <br>
-    
-  <!--LOOKING TO HIRE ME? HERE ARE MY SKILLS & EXPERIENCE-->
-  <div style="border: 2px solid black; border-radius: 0px; width: 1500px; height: auto; background-color: #ffffff; margin: auto"><!--About Me rectangle background-->
-    
-    <p style="font-size: 20px; text-align: center; color:#000000; padding-top: 25px; padding-bottom: 0px; padding-left: 25px"><b>LOOKING TO HIRE ME? HERE ARE MY SKILLS & EXPERIENCE</b></p><br>
-    
-    <p style="font-size: 20px; text-align: left; color:#000000; padding-top: 25px; padding-bottom: 25px; padding-left: 25px">
-   - I can convert any image file into any format<br>
-   - I can export projects to any resolution<br>
-   - I can export projects to .svg<br>
-   - I can export projects to .pdf<br>
-   - I can export .pdf files back to .svg<br>
-   - I can export .svg to .pdf<br>
-   - I have limited experience in web UI and UX design.<br>
-   - I can vector trace low-quality logos and other simple graphics into .svg files for infinite scaling and customization<br><br>
-   
-   If you're a recruiter/employer, feel free to send me an email requesting my resume.
-    </p>
-    </div>
 
-    <br>
+
+<!--HERO STARTS-->
+<style>
+  .svg-background1 {
+    width: 1920px; /* USE THE SVG FILE DIMENIONS IN PX */
+    height: 750px; /* USE THE SVG FILE DIMENIONS IN PX */
+    background-image: url('hero.svg'); /* Path to your local SVG file */
+    background-size: cover; /* Ensures the SVG covers the entire div */
+    background-repeat: no-repeat; /* Prevents the SVG from repeating */
+    background-position: center; /* Centers the SVG in the div */
+  }
+</style>
+<div class="svg-background1" style="position: relative">
+  <button style="font-size: 30px; color:#000000; position: absolute; left: 148.68px; top: 527.50px">Get In Touch</button>
+  <img src="hero.gif" alt="Sample GIF" style="width: 800px; height: 400px; position: absolute; left: 1100px; top: 100px">
+
+
+</div>
+<!--HERO ENDS-->
+
+<!--ABOUT STARTS-->
+<style>
+  .svg-background2 {
+    width: 1920px; /* USE THE SVG FILE DIMENIONS IN PX */
+    height: 600px; /* USE THE SVG FILE DIMENIONS IN PX */
+    background-image: url('about.svg'); /* Path to your local SVG file */
+    background-size: cover; /* Ensures the SVG covers the entire div */
+    background-repeat: no-repeat; /* Prevents the SVG from repeating */
+    background-position: center; /* Centers the SVG in the div */
+  }
+</style>
+<div class="svg-background2" style="position: relative">
+  <button style="font-size: 30px; color:#000000; position: absolute; left: 148.68px; top: 527.50px">Get In Touch</button>
+
+  
+</div>
+<!--ABOUT ENDS-->
+
+<!--ALTERNATIVE TO HTML-->
+<style>
+  .svg-background3 {
+    width: 1920px; /* USE THE SVG FILE DIMENIONS IN PX */
+    height: 600px; /* USE THE SVG FILE DIMENIONS IN PX */
+    background-image: url('test.svg'); /* Path to your local SVG file */
+    background-size: cover; /* Ensures the SVG covers the entire div */
+    background-repeat: no-repeat; /* Prevents the SVG from repeating */
+    background-position: center; /* Centers the SVG in the div */
+  }
+</style>
+<div class="svg-background3" style="position: relative">
+  <button style="font-size: 30px; color:#000000; position: absolute; left: 148.68px; top: 527.50px">Get In Touch</button>
+</div>
+<!--ALTERNATIVE TO HTML-->
+
     
      <!--FOOTER STARTS-->
   <div style="border: 0px solid black; border-radius: 0px; width: 1920px; height: auto; background-color: #93ac93; margin: auto">
