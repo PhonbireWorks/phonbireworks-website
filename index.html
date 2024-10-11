@@ -28,7 +28,7 @@
    <div class="sticky"><!--STICKY-->
   
   <!--HOME BANNER-->
-  <div style="border: 0px solid black; background-color: #cd5744; width: 1920px; margin: auto; margin-top: -10px;">
+  <div style="border: 0px solid black; background-color: #000000; width: 1920px; margin: auto; margin-top: -10px;">
  <img src="banner.svg" alt="Centered Image" class="transform_banner"><!--Home banner-->
     </div>
     
@@ -70,7 +70,14 @@
   }
 </style>
 <div class="svg-background1" style="position: relative">
-  <button style="font-size: 30px; color:#000000; position: absolute; left: 148.68px; top: 527.50px">Get In Touch</button>
+  <button onclick="scrollToSection()" style="font-size: 30px; color:#000000; position: absolute; left: 148.68px; top: 527.50px">Get In Touch</button>
+
+  <script>
+    function scrollToSection() {
+      document.getElementById('target-section').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
   <img src="hero.gif" alt="Sample GIF" style="width: 800px; height: 400px; position: absolute; left: 1100px; top: 100px">
 
 
@@ -90,7 +97,7 @@
 </style>
 <div class="svg-background2" style="position: relative">
   <button style="font-size: 30px; color:#000000; position: absolute; left: 148.68px; top: 527.50px">Get In Touch</button>
-
+  
   
 </div>
 <!--ABOUT ENDS-->
@@ -122,6 +129,7 @@
     <p style="font-size: 20px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 0px; padding-left: 25px"><b>Let's Colabborate!</b></p><br>
 
     <!--FORM STARTS-->
+    <div id="target-section"></div><!--SMOOTH SCROLL TARGET-->
 <div style="display: flex; flex-direction: column; align-items: center; width: 1500px; height: auto; margin: auto">
     <form style="display: flex; flex-direction: column; align-items: center" action="https://formspree.io/f/xnnqalvd" method="POST">
         <label style="color: #ffffff" for="fname">First Name*</label>
