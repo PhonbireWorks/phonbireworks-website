@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="0.64"
-     inkscape:cx="841.40625"
-     inkscape:cy="330.46875"
+     inkscape:zoom="0.90509668"
+     inkscape:cx="46.403883"
+     inkscape:cy="377.30776"
      inkscape:window-width="1920"
      inkscape:window-height="991"
      inkscape:window-x="2391"
@@ -49,7 +49,7 @@
        orientation="0,-1"
        id="guide488"
        inkscape:locked="false" /><sodipodi:guide
-       position="16.911836,182.13824"
+       position="13.229938,23.538211"
        orientation="1,0"
        id="guide489"
        inkscape:locked="false" /></sodipodi:namedview><defs
@@ -3129,13 +3129,13 @@
        inkscape:export-ydpi="200"><tspan
          x="4342.7632"
          y="224.91156"
-         id="tspan5">Your Destination For </tspan><tspan
+         id="tspan1">Your Destination For </tspan><tspan
          x="4342.7632"
          y="245.86982"
-         id="tspan6">Digital Products &amp; </tspan><tspan
+         id="tspan2">Digital Products &amp; </tspan><tspan
          x="4342.7632"
          y="266.82807"
-         id="tspan7">Services</tspan></text><rect
+         id="tspan3">Services</tspan></text><rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.244116;paint-order:stroke fill markers"
        id="rect80"
        width="507.99994"
@@ -3158,7 +3158,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,3736.0876,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan110">HOME</tspan></text><text
+           id="tspan4">HOME</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:130.883;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
          x="4342.7632"
@@ -3167,7 +3167,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,4089.6894,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan111">BROWSE SHOP</tspan></text><text
+           id="tspan5">BROWSE SHOP</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:130.883;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
          x="4342.7632"
@@ -3176,7 +3176,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,4579.1497,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan112">CONTACT</tspan></text><text
+           id="tspan6">CONTACT</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:130.883;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
          x="4342.7632"
@@ -3185,7 +3185,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,4986.4966,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan113">MY BLOG</tspan></text><text
+           id="tspan7">MY BLOG</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:130.883;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
          x="4342.7632"
@@ -3194,7 +3194,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,5386.0686,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan114">MY PORTFOLIO</tspan></text></g><rect
+           id="tspan8">MY PORTFOLIO</tspan></text></g><rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.308722;paint-order:stroke fill markers"
        id="rect134"
        width="163.31155"
@@ -3219,7 +3219,7 @@
        transform="matrix(0.34062443,0,0,0.34062443,10043.259,-78.1133)"><tspan
          x="4342.7632"
          y="224.91156"
-         id="tspan115">Learn more</tspan></text><rect
+         id="tspan9">Learn more</tspan></text><rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:10;paint-order:stroke fill markers"
        id="rect109"
        width="253.99986"
@@ -3278,7 +3278,7 @@
        transform="matrix(0.32416688,0,0,0.32416688,10159.069,88.2301)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan116">Vector Tracing (converting low-quality image files to svg files</tspan></text><circle
+         id="tspan10">Vector Tracing (converting low-quality image files to svg files</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.58309;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle139-6"
        cx="11545.411"
@@ -3298,7 +3298,7 @@
        transform="matrix(0.32416688,0,0,0.32416688,10159.069,98.6075)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan117">Converting pdf files to svg, and vice versa</tspan></text><circle
+         id="tspan11">Converting pdf files to svg, and vice versa</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.58309;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle195-0"
        cx="11545.411"
@@ -3318,7 +3318,7 @@
        transform="matrix(0.32416688,0,0,0.32416688,10159.069,108.399)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan118">Converting image files to any format (where applicable)</tspan></text><circle
+         id="tspan12">Converting image files to any format (where applicable)</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.58309;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle213-1"
        cx="11545.411"
@@ -3338,7 +3338,7 @@
        transform="matrix(0.32416688,0,0,0.32416688,10159.069,117.1456)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan119">I Design Custom Resumes</tspan></text><circle
+         id="tspan13">I Design Custom Resumes</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.58309;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle217-2"
        cx="11545.411"
@@ -3358,7 +3358,7 @@
        transform="matrix(0.32416688,0,0,0.32416688,10159.069,125.8923)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan120">I Design Custom Business Cards</tspan></text><circle
+         id="tspan14">I Design Custom Business Cards</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.58309;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle219-2"
        cx="11545.411"
@@ -3378,7 +3378,7 @@
        transform="matrix(0.32416688,0,0,0.32416688,10159.069,134.6389)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan121">I Design Custom Brochures</tspan></text><circle
+         id="tspan15">I Design Custom Brochures</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.58309;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle221-5"
        cx="11545.411"
@@ -3398,7 +3398,7 @@
        transform="matrix(0.32416688,0,0,0.32416688,10159.069,145.1584)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan122">I Design Custom Billboards</tspan></text><rect
+         id="tspan16">I Design Custom Billboards</tspan></text><rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.27959;paint-order:stroke fill markers"
        id="rect9-0"
        width="183.04431"
@@ -3426,7 +3426,7 @@
        transform="matrix(0.32416694,0,0,0.32416694,10405.346,88.2301)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan123">Vector Tracing (converting low-quality image files to svg files</tspan></text><circle
+         id="tspan17">Vector Tracing (converting low-quality image files to svg files</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.583091;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle10"
        cx="11791.69"
@@ -3446,7 +3446,7 @@
        transform="matrix(0.32416694,0,0,0.32416694,10405.346,98.6075)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan124">Converting pdf files to svg, and vice versa</tspan></text><circle
+         id="tspan18">Converting pdf files to svg, and vice versa</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.583091;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle11"
        cx="11791.69"
@@ -3466,7 +3466,7 @@
        transform="matrix(0.32416694,0,0,0.32416694,10405.346,108.399)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan125">Converting image files to any format (where applicable)</tspan></text><circle
+         id="tspan19">Converting image files to any format (where applicable)</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.583091;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle12"
        cx="11791.69"
@@ -3486,7 +3486,7 @@
        transform="matrix(0.32416694,0,0,0.32416694,10405.346,117.1456)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan126">I Design Custom Resumes</tspan></text><circle
+         id="tspan20">I Design Custom Resumes</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.583091;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle13"
        cx="11791.69"
@@ -3506,7 +3506,7 @@
        transform="matrix(0.32416694,0,0,0.32416694,10405.346,125.8923)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan127">I Design Custom Business Cards</tspan></text><circle
+         id="tspan21">I Design Custom Business Cards</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.583091;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle14"
        cx="11791.69"
@@ -3526,7 +3526,7 @@
        transform="matrix(0.32416694,0,0,0.32416694,10405.346,134.6389)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan128">I Design Custom Brochures</tspan></text><circle
+         id="tspan22">I Design Custom Brochures</tspan></text><circle
        style="fill:none;fill-opacity:1;stroke:#008000;stroke-width:0.583091;stroke-dasharray:none;paint-order:stroke fill markers"
        id="circle15"
        cx="11791.69"
@@ -3546,7 +3546,7 @@
        transform="matrix(0.32416694,0,0,0.32416694,10405.346,145.1584)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan129">I Design Custom Billboards</tspan></text><rect
+         id="tspan23">I Design Custom Billboards</tspan></text><rect
        style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:12.2383;paint-order:stroke fill markers"
        id="rect135"
        width="507.99997"
@@ -3582,19 +3582,19 @@
        transform="matrix(0.75949831,0,0,0.75949831,8251.4837,-280.6978)"><tspan
          x="4299.5952"
          y="496.95853"
-         id="tspan130">My name is Warren Van Zuydam. This website is used </tspan><tspan
+         id="tspan24">My name is Warren Van Zuydam. This website is used </tspan><tspan
          x="4299.5952"
          y="517.47801"
-         id="tspan131">to host my portfolio, digital products, services, and </tspan><tspan
+         id="tspan25">to host my portfolio, digital products, services, and </tspan><tspan
          x="4299.5952"
          y="537.99748"
-         id="tspan132">anything else I feel like. I am a hobbyist graphic </tspan><tspan
+         id="tspan26">anything else I feel like. I am a hobbyist graphic </tspan><tspan
          x="4299.5952"
          y="558.51701"
-         id="tspan133">designer and website designer who is looking to share </tspan><tspan
+         id="tspan27">designer and website designer who is looking to share </tspan><tspan
          x="4299.5952"
          y="579.03655"
-         id="tspan134">my humble works with the rest of the world.</tspan></text><rect
+         id="tspan28">my humble works with the rest of the world.</tspan></text><rect
        style="fill:#000000;fill-opacity:1;stroke-width:0.0124181;paint-order:stroke fill markers"
        id="rect469"
        width="44.095596"
@@ -3611,7 +3611,7 @@
        transform="matrix(0.34062443,0,0,0.34062443,10311.662,256.2836)"><tspan
          x="4391.6753"
          y="224.91156"
-         id="tspan135">Browse Shop</tspan></text><rect
+         id="tspan29">Browse Shop</tspan></text><rect
        style="fill:#000000;fill-opacity:1;stroke-width:0.0124181;paint-order:stroke fill markers"
        id="rect476"
        width="44.095596"
@@ -3628,7 +3628,7 @@
        transform="matrix(0.34062443,0,0,0.34062443,10065.384,256.2836)"><tspan
          x="4391.6753"
          y="224.91156"
-         id="tspan136">Get In Touch</tspan></text><text
+         id="tspan30">Get In Touch</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:180.508;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
        x="4342.7632"
@@ -3637,7 +3637,7 @@
        transform="matrix(1.6063745,0,0,1.6063745,4539.3497,-295.4372)"><tspan
          x="4342.7632"
          y="224.91156"
-         id="tspan137">Hi;</tspan></text><text
+         id="tspan31">Hi;</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.4156px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:406.95;display:inline;fill:#000000;stroke:#000000;stroke-width:0.847906;paint-order:stroke fill markers"
        x="4394.2656"
@@ -3646,7 +3646,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8289.8037,-160.0906)"><tspan
          x="4394.2656"
          y="496.95853"
-         id="tspan138">What Services Do I Offer?</tspan></text><text
+         id="tspan32">What Services Do I Offer?</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.4156px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:406.95;display:inline;fill:#000000;stroke:#000000;stroke-width:0.847906;paint-order:stroke fill markers"
        x="4420.2715"
@@ -3655,7 +3655,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8524.0527,-162.5622)"><tspan
          x="4420.2715"
          y="496.95853"
-         id="tspan139">What Digital Products Do I Offer?</tspan></text><g
+         id="tspan33">What Digital Products Do I Offer?</tspan></text><g
        inkscape:label="Layer 1"
        id="g538"
        transform="matrix(0.26458333,0,0,0.26458333,9240.9017,1092.3636)"><rect
@@ -3795,7 +3795,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,3736.0876,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan140">HOME</tspan></text><text
+           id="tspan34">HOME</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:130.883;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
          x="4342.7632"
@@ -3804,7 +3804,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,4089.6894,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan141">BROWSE SHOP</tspan></text><text
+           id="tspan35">BROWSE SHOP</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:130.883;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
          x="4342.7632"
@@ -3813,7 +3813,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,4579.1497,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan142">CONTACT</tspan></text><text
+           id="tspan36">CONTACT</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:130.883;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
          x="4342.7632"
@@ -3822,7 +3822,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,4986.4966,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan143">MY BLOG</tspan></text><text
+           id="tspan37">MY BLOG</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:130.883;display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.866033;paint-order:stroke fill markers"
          x="4342.7632"
@@ -3831,7 +3831,7 @@
          transform="matrix(1.7652153,0,0,1.7652153,5386.0686,284.96884)"><tspan
            x="4342.7632"
            y="224.91156"
-           id="tspan144">MY PORTFOLIO</tspan></text></g><text
+           id="tspan38">MY PORTFOLIO</tspan></text></g><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.4156px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:406.95;display:inline;fill:#000000;stroke:#000000;stroke-width:0.847906;paint-order:stroke fill markers"
        x="4295.2749"
@@ -3840,7 +3840,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8370.6837,687.3689)"><tspan
          x="4295.2749"
          y="496.95853"
-         id="tspan145">Featured &amp; Specials</tspan></text><text
+         id="tspan39">Featured &amp; Specials</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:186.49;display:inline;fill:#ffffff;stroke:none;stroke-width:0.866033;paint-order:stroke fill markers"
        x="4345.3091"
@@ -3849,73 +3849,73 @@
        transform="matrix(0.34062443,0,0,0.34062443,10050.261,1012.5764)"><tspan
          x="4345.3091"
          y="224.91156"
-         id="tspan146">Resume Templates
+         id="tspan40">Resume Templates
 </tspan><tspan
          x="4345.3091"
          y="245.86982"
-         id="tspan147">Calendars
+         id="tspan41">Calendars
 </tspan><tspan
          x="4345.3091"
          y="266.82807"
-         id="tspan148">Journals
+         id="tspan42">Journals
 </tspan><tspan
          x="4345.3091"
          y="287.7863"
-         id="tspan149">Desk Pads
+         id="tspan43">Desk Pads
 </tspan><tspan
          x="4345.3091"
          y="308.74456"
-         id="tspan150">Spreadsheets
+         id="tspan44">Spreadsheets
 </tspan><tspan
          x="4345.3091"
          y="329.70281"
-         id="tspan151">Daily Planners
+         id="tspan45">Daily Planners
 </tspan><tspan
          x="4345.3091"
          y="350.66106"
-         id="tspan152">Forms
+         id="tspan46">Forms
 </tspan><tspan
          x="4345.3091"
          y="371.61931"
-         id="tspan153">Vector Graphic Element </tspan><tspan
+         id="tspan47">Vector Graphic Element </tspan><tspan
          x="4345.3091"
          y="392.57756"
-         id="tspan154">Packs
+         id="tspan48">Packs
 </tspan><tspan
          x="4345.3091"
          y="413.53582"
-         id="tspan155">Brochures
+         id="tspan49">Brochures
 </tspan><tspan
          x="4345.3091"
          y="434.49407"
-         id="tspan156">Business Cards
+         id="tspan50">Business Cards
 </tspan><tspan
          x="4345.3091"
          y="455.45232"
-         id="tspan157">Slideshows
+         id="tspan51">Slideshows
 </tspan><tspan
          x="4345.3091"
          y="476.41057"
-         id="tspan158">Fonts
+         id="tspan52">Fonts
 </tspan><tspan
          x="4345.3091"
          y="497.36882"
-         id="tspan159">E-books
+         id="tspan53">E-books
 </tspan><tspan
          x="4345.3091"
          y="518.32708"
-         id="tspan160">Meal Planners
+         id="tspan54">Meal Planners
 </tspan><tspan
          x="4345.3091"
          y="539.28533"
-         id="tspan161">Social Media Post </tspan><tspan
+         id="tspan55">Social Media Post </tspan><tspan
          x="4345.3091"
          y="560.24358"
-         id="tspan162">Templates
+         id="tspan56">Templates
 </tspan><tspan
          x="4345.3091"
          y="581.20183"
-         id="tspan163">Birthday Cards</tspan></text><rect
+         id="tspan57">Birthday Cards</tspan></text><rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.401915;paint-order:stroke fill markers"
        id="rect548"
        width="353.30524"
@@ -3932,7 +3932,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8370.6837,811.161)"><tspan
          x="4295.2749"
          y="496.95853"
-         id="tspan164">All Products</tspan></text><rect
+         id="tspan58">All Products</tspan></text><rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.234697;paint-order:stroke fill markers"
        id="rect549"
        width="120.47459"
@@ -3960,7 +3960,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8254.6617,687.3689)"><tspan
          x="4295.2749"
          y="496.95853"
-         id="tspan165">Quick Search</tspan></text><rect
+         id="tspan59">Quick Search</tspan></text><rect
        style="fill:#ffffff;fill-opacity:1;stroke-width:0.255046;paint-order:stroke fill markers"
        id="rect81"
        width="507.99997"
@@ -4002,7 +4002,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8266.0267,1401.8126)"><tspan
          x="4295.2749"
          y="496.95853"
-         id="tspan166">Quick Search</tspan></text><rect
+         id="tspan60">Quick Search</tspan></text><rect
        style="fill:#ffffff;fill-opacity:1;stroke-width:0.156574;paint-order:stroke fill markers"
        id="rect141"
        width="507.99997"
@@ -4037,7 +4037,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8415.7927,1977.8308)"><tspan
          x="4295.2749"
          y="496.95853"
-         id="tspan167">Test Heading 1</tspan></text><text
+         id="tspan61">Test Heading 1</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:177.91;display:inline;fill:#000000;stroke:#000000;stroke-width:0.866033;paint-order:stroke fill markers"
        x="4351.207"
@@ -4046,7 +4046,7 @@
        transform="matrix(0.34062443,0,0,0.34062443,10195.865,2291.0544)"><tspan
          x="4351.207"
          y="224.91156"
-         id="tspan168">11 October 2024</tspan></text><text
+         id="tspan62">11 October 2024</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;white-space:pre;inline-size:212.864;display:inline;fill:#000000;stroke:#000000;stroke-width:0.866033;paint-order:stroke fill markers"
        x="4432.1431"
@@ -4055,7 +4055,7 @@
        transform="matrix(0.34062443,0,0,0.34062443,10321.227,2375.0597)"><tspan
          x="4432.1431"
          y="224.91156"
-         id="tspan169">By Warren Van Zuydam</tspan></text><rect
+         id="tspan63">By Warren Van Zuydam</tspan></text><rect
        style="opacity:0.338282;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.234697;paint-order:stroke fill markers;filter:url(#filter136)"
        id="rect200"
        width="120.47459"
@@ -4081,7 +4081,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8415.7927,2203.4597)"><tspan
          x="4295.2749"
          y="496.95853"
-         id="tspan170">Test Heading 1</tspan></text><text
+         id="tspan64">Test Heading 1</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:177.91;display:inline;fill:#000000;stroke:#000000;stroke-width:0.866033;paint-order:stroke fill markers"
        x="4351.207"
@@ -4090,7 +4090,7 @@
        transform="matrix(0.34062443,0,0,0.34062443,10195.865,2516.6833)"><tspan
          x="4351.207"
          y="224.91156"
-         id="tspan171">11 October 2024</tspan></text><text
+         id="tspan65">11 October 2024</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;white-space:pre;inline-size:212.864;display:inline;fill:#000000;stroke:#000000;stroke-width:0.866033;paint-order:stroke fill markers"
        x="4432.1431"
@@ -4099,7 +4099,7 @@
        transform="matrix(0.34062443,0,0,0.34062443,10321.227,2600.6886)"><tspan
          x="4432.1431"
          y="224.91156"
-         id="tspan172">By Warren Van Zuydam</tspan></text><text
+         id="tspan66">By Warren Van Zuydam</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:186.49;display:inline;fill:#000000;stroke:#000000;stroke-width:0.866033;paint-order:stroke fill markers"
        x="4345.3091"
@@ -4108,73 +4108,73 @@
        transform="matrix(0.34062443,0,0,0.34062443,10074.141,1729.4816)"><tspan
          x="4345.3091"
          y="224.91156"
-         id="tspan173">Resume Templates
+         id="tspan67">Resume Templates
 </tspan><tspan
          x="4345.3091"
          y="245.86982"
-         id="tspan174">Calendars
+         id="tspan68">Calendars
 </tspan><tspan
          x="4345.3091"
          y="266.82807"
-         id="tspan175">Journals
+         id="tspan69">Journals
 </tspan><tspan
          x="4345.3091"
          y="287.7863"
-         id="tspan176">Desk Pads
+         id="tspan70">Desk Pads
 </tspan><tspan
          x="4345.3091"
          y="308.74456"
-         id="tspan177">Spreadsheets
+         id="tspan71">Spreadsheets
 </tspan><tspan
          x="4345.3091"
          y="329.70281"
-         id="tspan178">Daily Planners
+         id="tspan72">Daily Planners
 </tspan><tspan
          x="4345.3091"
          y="350.66106"
-         id="tspan179">Forms
+         id="tspan73">Forms
 </tspan><tspan
          x="4345.3091"
          y="371.61931"
-         id="tspan180">Vector Graphic Element </tspan><tspan
+         id="tspan74">Vector Graphic Element </tspan><tspan
          x="4345.3091"
          y="392.57756"
-         id="tspan181">Packs
+         id="tspan75">Packs
 </tspan><tspan
          x="4345.3091"
          y="413.53582"
-         id="tspan182">Brochures
+         id="tspan76">Brochures
 </tspan><tspan
          x="4345.3091"
          y="434.49407"
-         id="tspan183">Business Cards
+         id="tspan77">Business Cards
 </tspan><tspan
          x="4345.3091"
          y="455.45232"
-         id="tspan184">Slideshows
+         id="tspan78">Slideshows
 </tspan><tspan
          x="4345.3091"
          y="476.41057"
-         id="tspan185">Fonts
+         id="tspan79">Fonts
 </tspan><tspan
          x="4345.3091"
          y="497.36882"
-         id="tspan186">E-books
+         id="tspan80">E-books
 </tspan><tspan
          x="4345.3091"
          y="518.32708"
-         id="tspan187">Meal Planners
+         id="tspan81">Meal Planners
 </tspan><tspan
          x="4345.3091"
          y="539.28533"
-         id="tspan188">Social Media Post </tspan><tspan
+         id="tspan82">Social Media Post </tspan><tspan
          x="4345.3091"
          y="560.24358"
-         id="tspan189">Templates
+         id="tspan83">Templates
 </tspan><tspan
          x="4345.3091"
          y="581.20183"
-         id="tspan190">Birthday Cards</tspan></text><rect
+         id="tspan84">Birthday Cards</tspan></text><rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.402871;paint-order:stroke fill markers"
        id="rect302"
        width="111.86373"
@@ -4191,7 +4191,7 @@
        transform="matrix(0.75949831,0,0,0.75949831,8435.6027,1401.8126)"><tspan
          x="4295.2749"
          y="496.95853"
-         id="tspan191">Quick Search</tspan></text><text
+         id="tspan85">Quick Search</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.7666px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;white-space:pre;inline-size:186.49;display:inline;fill:#000000;stroke:#000000;stroke-width:0.866033;paint-order:stroke fill markers"
        x="4345.3091"
@@ -4200,73 +4200,73 @@
        transform="matrix(0.34062443,0,0,0.34062443,10243.717,1729.4816)"><tspan
          x="4345.3091"
          y="224.91156"
-         id="tspan192">Resume Templates
+         id="tspan86">Resume Templates
 </tspan><tspan
          x="4345.3091"
          y="245.86982"
-         id="tspan193">Calendars
+         id="tspan87">Calendars
 </tspan><tspan
          x="4345.3091"
          y="266.82807"
-         id="tspan194">Journals
+         id="tspan88">Journals
 </tspan><tspan
          x="4345.3091"
          y="287.7863"
-         id="tspan195">Desk Pads
+         id="tspan89">Desk Pads
 </tspan><tspan
          x="4345.3091"
          y="308.74456"
-         id="tspan196">Spreadsheets
+         id="tspan90">Spreadsheets
 </tspan><tspan
          x="4345.3091"
          y="329.70281"
-         id="tspan197">Daily Planners
+         id="tspan91">Daily Planners
 </tspan><tspan
          x="4345.3091"
          y="350.66106"
-         id="tspan198">Forms
+         id="tspan92">Forms
 </tspan><tspan
          x="4345.3091"
          y="371.61931"
-         id="tspan199">Vector Graphic Element </tspan><tspan
+         id="tspan93">Vector Graphic Element </tspan><tspan
          x="4345.3091"
          y="392.57756"
-         id="tspan200">Packs
+         id="tspan94">Packs
 </tspan><tspan
          x="4345.3091"
          y="413.53582"
-         id="tspan201">Brochures
+         id="tspan95">Brochures
 </tspan><tspan
          x="4345.3091"
          y="434.49407"
-         id="tspan202">Business Cards
+         id="tspan96">Business Cards
 </tspan><tspan
          x="4345.3091"
          y="455.45232"
-         id="tspan203">Slideshows
+         id="tspan97">Slideshows
 </tspan><tspan
          x="4345.3091"
          y="476.41057"
-         id="tspan204">Fonts
+         id="tspan98">Fonts
 </tspan><tspan
          x="4345.3091"
          y="497.36882"
-         id="tspan205">E-books
+         id="tspan99">E-books
 </tspan><tspan
          x="4345.3091"
          y="518.32708"
-         id="tspan206">Meal Planners
+         id="tspan100">Meal Planners
 </tspan><tspan
          x="4345.3091"
          y="539.28533"
-         id="tspan207">Social Media Post </tspan><tspan
+         id="tspan101">Social Media Post </tspan><tspan
          x="4345.3091"
          y="560.24358"
-         id="tspan208">Templates
+         id="tspan102">Templates
 </tspan><tspan
          x="4345.3091"
          y="581.20183"
-         id="tspan209">Birthday Cards</tspan></text><rect
+         id="tspan103">Birthday Cards</tspan></text><rect
        style="fill:#666666;fill-opacity:0.972549;stroke-width:1;paint-order:stroke fill markers;stroke:none"
        id="rect5"
        width="31.789873"
@@ -4278,16 +4278,16 @@
        x="4342.7632"
        y="224.91156"
        id="text7"
-       transform="matrix(1.6063745,0,0,1.6063745,3723.5284,152.14109)"
+       transform="matrix(1.6063745,0,0,1.6063745,3719.8478,138.40177)"
        inkscape:export-filename="..\..\WEBSITE BACKUPS\phonbireworks-website-main\phonbireworks-website-main\home.svg"
        inkscape:export-xdpi="200"
        inkscape:export-ydpi="200"><tspan
          x="4342.7632"
          y="224.91156"
-         id="tspan210">Your Destination For </tspan><tspan
+         id="tspan104">Your Destination For </tspan><tspan
          x="4342.7632"
          y="245.86982"
-         id="tspan211">Digital Products &amp; </tspan><tspan
+         id="tspan105">Digital Products &amp; </tspan><tspan
          x="4342.7632"
          y="266.82807"
-         id="tspan212">Services</tspan></text></g></svg>
+         id="tspan106">Services</tspan></text></g></svg>

@@ -151,17 +151,17 @@ body {
     background-color: #3c3c3c; /* Adds a slight overlay on hover */
   }
 
-
 /* SCROLL CONTAINER STARTS */
 .scroll-container {
-    display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 10px;
-    background-color: #000000;
-    position: relative;
-    z-index: 1;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  background-color: #000000;
+  position: relative;
+  z-index: 1;
 }
+
 
 /* BUTTON STYLE 1 */
 .svg-button1 {

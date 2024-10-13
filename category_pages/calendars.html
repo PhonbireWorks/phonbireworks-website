@@ -163,10 +163,200 @@
 
 <a href="https://www.paypal.com/ncp/payment/WHS3NUSWVZCH2" target="_blank">BUY NOW FOR $3</a>
   
-    
-    <br>
-    
-  
+<!-- STRIPE PAYMENT STARTS-->    
+<script src="https://js.stripe.com/v3/"></script>
+<style>
+
+.payment-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+#card-element {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#card-errors {
+  color: #e74c3c;
+  margin-top: 10px;
+}
+</style>
+<div class="payment-container">
+  <form id="payment-form">
+    <h2>Payment Details</h2>
+    <div id="card-element"><!-- A Stripe Element will be inserted here. --></div>
+    <button type="submit">Submit Payment</button>
+    <div id="card-errors" role="alert"></div>
+  </form>
+</div>
+<script>
+  var stripe = Stripe('your-publishable-key-here');
+  var elements = stripe.elements();
+  var card = elements.create('card');
+  card.mount('#card-element');
+
+  var form = document.getElementById('payment-form');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    stripe.createToken(card).then(function(result) {
+      if (result.error) {
+        // Display error.message in #card-errors
+        var errorElement = document.getElementById('card-errors');
+        errorElement.textContent = result.error.message;
+      } else {
+        // Send the token to your server
+        stripeTokenHandler(result.token);
+      }
+    });
+  });
+
+  function stripeTokenHandler(token) {
+    // Insert the token ID into the form so it gets submitted to the server
+    var hiddenInput = document.createElement('input');
+    hiddenInput.setAttribute('type', 'hidden');
+    hiddenInput.setAttribute('name', 'stripeToken');
+    hiddenInput.setAttribute('value', token.id);
+    form.appendChild(hiddenInput);
+
+    // Submit the form
+    form.submit();
+  }
+</script>
+  <!-- STRIPE PAYMENT ENDS-->
+
+
+
+  <script src="https://pay.google.com/gp/p/js/pay.js"></script>
+  <div id="container"></div>
+  <script>
+    const paymentsClient = new google.payments.api.PaymentsClient({environment: 'TEST'});
+    const button = paymentsClient.createButton({onClick: onGooglePayButtonClicked});
+    document.getElementById('container').appendChild(button);
+  </script>
+<script>
+  const baseRequest = {
+    apiVersion: 2,
+    apiVersionMinor: 0
+  };
+
+  const allowedCardNetworks = ["AMEX", "DISCOVER", "JCB", "MASTERCARD", "VISA"];
+  const allowedCardAuthMethods = ["PAN_ONLY", "CRYPTOGRAM_3DS"];
+
+  const tokenizationSpecification = {
+    type: 'PAYMENT_GATEWAY',
+    parameters: {
+      'gateway': 'example',
+      'gatewayMerchantId': 'exampleGatewayMerchantId'
+    }
+  };
+
+  const baseCardPaymentMethod = {
+    type: 'CARD',
+    parameters: {
+      allowedAuthMethods: allowedCardAuthMethods,
+      allowedCardNetworks: allowedCardNetworks
+    }
+  };
+
+  const cardPaymentMethod = Object.assign(
+    {},
+    baseCardPaymentMethod,
+    {
+      tokenizationSpecification: tokenizationSpecification
+    }
+  );
+
+  const paymentsClient = new google.payments.api.PaymentsClient({environment: 'TEST'});
+
+  const isReadyToPayRequest = Object.assign(
+    {},
+    baseRequest,
+    {
+      allowedPaymentMethods: [baseCardPaymentMethod]
+    }
+  );
+
+  paymentsClient.isReadyToPay(isReadyToPayRequest)
+    .then(function(response) {
+      if (response.result) {
+        const button = paymentsClient.createButton({onClick: onGooglePayButtonClicked});
+        document.getElementById('container').appendChild(button);
+      }
+    })
+    .catch(function(err) {
+      console.error(err);
+    });
+
+  function onGooglePayButtonClicked() {
+    const paymentDataRequest = Object.assign({}, baseRequest);
+    paymentDataRequest.allowedPaymentMethods = [cardPaymentMethod];
+    paymentDataRequest.transactionInfo = {
+      totalPriceStatus: 'FINAL',
+      totalPrice: '10.00', // Replace with your product price
+      currencyCode: 'USD'
+    };
+    paymentDataRequest.merchantInfo = {
+      merchantName: 'Example Merchant'
+    };
+
+    paymentsClient.loadPaymentData(paymentDataRequest)
+      .then(function(paymentData) {
+        // Handle the response
+        processPayment(paymentData);
+      })
+      .catch(function(err) {
+        console.error(err);
+      });
+  }
+
+  function processPayment(paymentData) {
+    // Handle the payment data response
+    console.log(paymentData);
+    // Send paymentData to your server for processing
+  }
+</script>
+<style>
+#container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+</style>
+
+
+
+
+
+
+
+
     
     <!--FOOTER STARTS-->
   <div style="border: 0px solid black; border-radius: 0px; width: 1920px; height: auto; background-color: #93ac93; margin: auto">
