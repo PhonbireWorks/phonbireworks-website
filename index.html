@@ -1,175 +1,262 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhonbireWorks</title>
-    <!-- The style.css file allows you to change the look of your web pages.
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PhonbireWorks</title>
+  <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-    <link href="styles/style.css" rel="stylesheet" type="text/css" media="all">
-    
-    
-     <style>
-        .sticky {
-            position: -webkit-sticky; /* For Safari */
-            position: sticky;
-            top: 0; /* You can adjust this value */
-            z-index: 100; /* This prevents the scroll container from displaying in front of the nav bar and header */
-        }
-        
-    </style>
-  </head>
-  
-  <!--WEBPAGE MAIN BACKGROUND STYLE SETTINGS-->
-  <body class="body_background" onload="promptMobileVersion()">
-  
-   <div class="sticky"><!--STICKY-->
-  
-  <!--HOME BANNER-->
-  <div style="border: 0px solid black; background-color: #000000; width: 1920px; margin: auto; margin-top: -10px;">
- <img src="banner.svg" alt="Centered Image" class="transform_banner"><!--Home banner-->
-    </div>
-    
-    
-    
-    
-  <!--NAVIGATION MENU BAR-->
-    <div class="navigation_bar">
-    
-    <div style="text-align: center">
-    
-    <button onclick="location.href='index.html'" class="home" style="color: #000000; background-color: #ffffff">HOME</button>
-    <button onclick="location.href='shoplist.html'" class="browse_shop">BROWSE SHOP</button><!--USE MAINTENANCE.HTML TO TEMPORARILY RESTRICT ACCESS TO SHOP-->
-    <button onclick="location.href='contact.html'" class="contact">CONTACT</button>
-    <button onclick="location.href='blog.html'" class="blog">MY BLOG</button>
-    <button onclick="location.href='portfolio.html'" class="my_portfolio">MY PORTFOLIO</button>
-    
-    </div>
-    </div>
-    
-    </div><!--STICKY ENDS-->
-    
-  <!--WEBPAGE CONTENT STARTS-->
-  
-  <div class="webpagewrapper" style="margin-top: -80px"><!--Webpage Sub-Background Style-->
-  
+  <link href="styles/style.css" rel="stylesheet" type="text/css" media="all">
 
 
-
-<!--HERO STARTS-->
-<style>
-  .svg-background1 {
-    width: 1920px; /* USE THE SVG FILE DIMENIONS IN PX */
-    height: 750px; /* USE THE SVG FILE DIMENIONS IN PX */
-    background-image: url('hero.svg'); /* Path to your local SVG file */
-    background-size: cover; /* Ensures the SVG covers the entire div */
-    background-repeat: no-repeat; /* Prevents the SVG from repeating */
-    background-position: center; /* Centers the SVG in the div */
-  }
-</style>
-<div class="svg-background1" style="position: relative">
-  <button onclick="scrollToSection()" style="position: absolute; left: 50px; top: 527.50px" class="svg-button1"><b>Learn more</b></button>
-  <p style="font-size: 80px; color:#ffffff; position: absolute; left: 50px; top: 100px"><b>Your Destination For<br>Digital Products &<br>Services</b></p>
-  <script>
-    function scrollToSection() {
-      document.getElementById('target-section').scrollIntoView({ behavior: 'smooth' });
+  <style>
+    .sticky {
+      position: -webkit-sticky;
+      /* For Safari */
+      position: sticky;
+      top: 0;
+      /* You can adjust this value */
+      z-index: 100;
+      /* This prevents the scroll container from displaying in front of the nav bar and header */
     }
-  </script>
+  </style>
+</head>
 
-  <img src="hero.gif" alt="Sample GIF" style="width: 800px; height: 400px; position: absolute; left: 1050px; top: 150px">
+<!--WEBPAGE MAIN BACKGROUND STYLE SETTINGS-->
+
+<body class="body_background" onload="promptMobileVersion()">
+
+  <div class="sticky"><!--STICKY-->
+
+    <!--HOME BANNER-->
+    <div style="border: 0px solid black; background-color: #000000; width: 1920px; margin: auto; margin-top: -10px;">
+      <img src="banner.svg" alt="Centered Image" class="transform_banner"><!--Home banner-->
+    </div>
 
 
-</div>
-<!--HERO ENDS-->
+
+
+    <!--NAVIGATION MENU BAR-->
+    <div class="navigation_bar">
+
+      <div style="text-align: center">
+
+        <button onclick="location.href='index.html'" class="home"
+          style="color: #000000; background-color: #ffffff">HOME</button>
+        <button onclick="location.href='shoplist.html'" class="browse_shop">BROWSE
+          SHOP</button><!--USE MAINTENANCE.HTML TO TEMPORARILY RESTRICT ACCESS TO SHOP-->
+        <button onclick="location.href='contact.html'" class="contact">CONTACT</button>
+        <button onclick="location.href='blog.html'" class="blog">MY BLOG</button>
+        <button onclick="location.href='portfolio.html'" class="my_portfolio">MY PORTFOLIO</button>
+
+      </div>
+    </div>
+
+  </div><!--STICKY ENDS-->
+
+  <!--WEBPAGE CONTENT STARTS-->
+
+  <div class="webpagewrapper" style="margin-top: -80px"><!--Webpage Sub-Background Style-->
+
+
+
+
+    <!--HERO STARTS-->
+    <style>
+      .svg-background1 {
+        width: 1920px;
+        /* USE THE SVG FILE DIMENIONS IN PX */
+        height: 750px;
+        /* USE THE SVG FILE DIMENIONS IN PX */
+        background-image: url('hero.svg');
+        /* Path to your local SVG file */
+        background-size: cover;
+        /* Ensures the SVG covers the entire div */
+        background-repeat: no-repeat;
+        /* Prevents the SVG from repeating */
+        background-position: center;
+        /* Centers the SVG in the div */
+      }
+    </style>
+    <div class="svg-background1" style="position: relative"><!-- DIV USING SVG AS BACKGROUND FOR PUTTING ELEMENTS WITHIN AN SVG -->
+      <object type="image/svg+xml" data="hero.svg"></object><!-- EMBEDDED SVG USED FOR SELECTABLE TEXT -->
+      <button onclick="scrollToSection()" style="position: absolute; left: 50px; top: 650px"
+        class="svg-button1"><b>Learn more</b></button>
+      <script>
+        function scrollToSection() {
+          document.getElementById('target-section').scrollIntoView({ behavior: 'smooth' });
+        }
+      </script>
+
+      <img src="hero.gif" alt="Sample GIF"
+        style="width: 800px; height: 400px; position: absolute; left: 1050px; top: 150px">
+
+
+    </div>
+    <!--HERO ENDS-->
+
+    <!--ABOUT STARTS-->
+    <style>
+      .svg-background2 {
+        width: 1920px;
+        /* USE THE SVG FILE DIMENIONS IN PX */
+        height: 600px;
+        /* USE THE SVG FILE DIMENIONS IN PX */
+        background-image: url('about.svg');
+        /* Path to your local SVG file */
+        background-size: cover;
+        /* Ensures the SVG covers the entire div */
+        background-repeat: no-repeat;
+        /* Prevents the SVG from repeating */
+        background-position: center;
+        /* Centers the SVG in the div */
+      }
+    </style>
+    <div class="svg-background2" style="position: relative"><!-- DIV USING SVG AS BACKGROUND FOR PUTTING ELEMENTS WITHIN AN SVG -->
+      <object type="image/svg+xml" data="about.svg"></object><!-- EMBEDDED SVG USED FOR SELECTABLE TEXT -->
+    </div>
+    <!--ABOUT ENDS-->
+
 
 <!--ABOUT STARTS-->
 <style>
-  .svg-background2 {
-    width: 1920px; /* USE THE SVG FILE DIMENIONS IN PX */
-    height: 600px; /* USE THE SVG FILE DIMENIONS IN PX */
-    background-image: url('about.svg'); /* Path to your local SVG file */
-    background-size: cover; /* Ensures the SVG covers the entire div */
-    background-repeat: no-repeat; /* Prevents the SVG from repeating */
-    background-position: center; /* Centers the SVG in the div */
+  .svg-background6 {
+    width: 1920px;
+    /* USE THE SVG FILE DIMENIONS IN PX */
+    height: 600px;
+    /* USE THE SVG FILE DIMENIONS IN PX */
+    background-image: url('about_website.svg');
+    /* Path to your local SVG file */
+    background-size: cover;
+    /* Ensures the SVG covers the entire div */
+    background-repeat: no-repeat;
+    /* Prevents the SVG from repeating */
+    background-position: center;
+    /* Centers the SVG in the div */
   }
 </style>
-<div class="svg-background2" style="position: relative">
-  <p style="font-size: 80px; color:#ffffff; position: absolute; left: 50px; top: 0px"><b>Hi;</b></p>
-  <p id="target-section" style="font-size: 40px; color:#ffffff; position: absolute; left: 50px; top: 200px"><b>My name is Warren Van Zuydam. This website is used<br>to host my portfolio, digital products, services, and<br>anything else I feel like. I am a hobbyist graphic<br>designer and website designer who is looking to share<br>my own works with the rest of the world.</b></p>
+<div id="target-section"></div> <!-- SMOOTH SCROLL TARGET -->
+<div class="svg-background6" style="position: relative"><!-- DIV USING SVG AS BACKGROUND FOR PUTTING ELEMENTS WITHIN AN SVG -->
+  <object type="image/svg+xml" data="about_website.svg"></object><!-- EMBEDDED SVG USED FOR SELECTABLE TEXT -->
+  
 </div>
 <!--ABOUT ENDS-->
 
-<!--ALTERNATIVE TO HTML-->
-<style>
-  .svg-background3 {
-    width: 1920px; /* USE THE SVG FILE DIMENIONS IN PX */
-    height: 600px; /* USE THE SVG FILE DIMENIONS IN PX */
-    background-image: url('test.svg'); /* Path to your local SVG file */
-    background-size: cover; /* Ensures the SVG covers the entire div */
-    background-repeat: no-repeat; /* Prevents the SVG from repeating */
-    background-position: center; /* Centers the SVG in the div */
-  }
-</style>
-<div class="svg-background3" style="position: relative">
-  <p style="font-size: 40px; color:#000000; position: absolute; left: 200px; top: 50px"><b>What Services Do I Offer?</b></p>
-  <p style="font-size: 40px; color:#000000; position: absolute; left: 1050px; top: 50px"><b>What Digital Products Do I Offer?</b></p>
-  <button onclick="location.href='shoplist.html'" style="position: absolute; left: 1079.49px; top: 520px" class="svg-button2"><b>Browse Shop</b></button>
-  
-</div>
-<!--ALTERNATIVE TO HTML-->
 
-    
-     <!--FOOTER STARTS-->
-  <div style="border: 0px solid black; border-radius: 0px; width: 1920px; height: auto; background-color: #93ac93; margin: auto">
-  
-  <p style="width: 650px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 25px; padding-left: 25px; margin: auto">
-   PhonbireWorks is the go-to source for high-quality digital products and services, from digital templates, journals, calendars, stickers, planners, etc. My goal is to provide customizable solutions tailored to your needs. I am passionate about creating digital experiences that make a difference. Let's embark on a digital journey together.
-    </p>
 
-    <p style="font-size: 20px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 0px; padding-left: 25px"><b>Let's Colabborate!</b></p><br>
-
-    <!--FORM STARTS-->
-    
-<div style="display: flex; flex-direction: column; align-items: center; width: 1500px; height: auto; margin: auto">
-    <form style="display: flex; flex-direction: column; align-items: center" action="https://formspree.io/f/xnnqalvd" method="POST">
-        <label style="color: #ffffff" for="fname">First Name*</label>
-        <input style="width: 400px" type="text" id="fname" name="firstname" placeholder="Your name.." required>
-          <br>
-        <label style="color: #ffffff" for="lname">Last Name*</label>
-        <input style="width: 400px" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-          <br>
-        <label style="color: #ffffff" for="email">Email*</label>
-        <input style="width: 400px" type="email" id="email" name="email" placeholder="Your email.." required>
-          <br>
-        <label style="color: #ffffff" for="subject">Your Message*</label>
-        <textarea style="width: 400px" id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-          <br>
-        <input style="width: 100px" type="submit" value="Submit">
-    </form>
-</div>
-    <!--FORM ENDS-->
-    
-    <p style="font-size: 20px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 0px; padding-left: 25px"><b>Follow Me On:</b></p><br>
-    
-    <img src="youtube.svg" style="width: 50px; height: 35.017px; margin-left: 945px; margin-bottom: 25px">
-    <img src="x.svg" style="width: 50px; height: 50px; margin-left: 945px; margin-bottom: 25px">
-    <img src="tiktok.svg" style="width: 50px; height: 50px; margin-left: 945px; margin-bottom: 25px">
-    
-<br>
-    
+    <!--SERVICES & PRODUCTS-->
+    <style>
+      .svg-background3 {
+        width: 1920px;
+        /* USE THE SVG FILE DIMENIONS IN PX */
+        height: 600px;
+        /* USE THE SVG FILE DIMENIONS IN PX */
+        background-image: url('test.svg');
+        /* Path to your local SVG file */
+        background-size: cover;
+        /* Ensures the SVG covers the entire div */
+        background-repeat: no-repeat;
+        /* Prevents the SVG from repeating */
+        background-position: center;
+        /* Centers the SVG in the div */
+      }
+    </style>
+    <div class="svg-background3" style="position: relative"><!-- DIV USING SVG AS BACKGROUND FOR PUTTING ELEMENTS WITHIN AN SVG -->
+      <object type="image/svg+xml" data="test.svg"></object><!-- EMBEDDED SVG USED FOR SELECTABLE TEXT -->
+      <button onclick="location.href='shoplist.html'" style="position: absolute; left: 1079.49px; top: 520px"
+        class="svg-button2"><b>Browse Shop</b></button>
     </div>
-    
+    <!--SERVICES & PRODUCTS-->
+
+
+    <!--SERVICES & PRODUCTS-->
+    <style>
+      .svg-background4 {
+        width: 1920px;
+        /* USE THE SVG FILE DIMENIONS IN PX */
+        height: 600px;
+        /* USE THE SVG FILE DIMENIONS IN PX */
+        background-image: url('business.svg');
+        /* Path to your local SVG file */
+        background-size: cover;
+        /* Ensures the SVG covers the entire div */
+        background-repeat: no-repeat;
+        /* Prevents the SVG from repeating */
+        background-position: center;
+        /* Centers the SVG in the div */
+      }
+    </style>
+    <div class="svg-background4" style="position: relative">
+
+
+    </div>
+    <!--SERVICES & PRODUCTS-->
+
+
+    <!--FOOTER STARTS-->
+    <div
+      style="border: 0px solid black; border-radius: 0px; width: 1920px; height: auto; background-color: #93ac93; margin: auto">
+
+      <p
+        style="width: 650px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 25px; padding-left: 25px; margin: auto">
+        PhonbireWorks is the go-to source for high-quality digital products and services, from digital templates,
+        journals, calendars, stickers, planners, etc. My goal is to provide customizable solutions tailored to your
+        needs. I am passionate about creating digital experiences that make a difference. Let's embark on a digital
+        journey together.
+      </p>
+
+      <p
+        style="font-size: 20px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 0px; padding-left: 25px">
+        <b>Let's Colabborate!</b></p><br>
+
+      <!--FORM STARTS-->
+
+      <div
+        style="display: flex; flex-direction: column; align-items: center; width: 1500px; height: auto; margin: auto">
+        <form style="display: flex; flex-direction: column; align-items: center"
+          action="https://formspree.io/f/xnnqalvd" method="POST">
+          <label style="color: #ffffff" for="fname">First Name*</label>
+          <input style="width: 400px" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <br>
+          <label style="color: #ffffff" for="lname">Last Name*</label>
+          <input style="width: 400px" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <br>
+          <label style="color: #ffffff" for="email">Email*</label>
+          <input style="width: 400px" type="email" id="email" name="email" placeholder="Your email.." required>
+          <br>
+          <label style="color: #ffffff" for="subject">Your Message*</label>
+          <textarea style="width: 400px" id="subject" name="subject" placeholder="Write something.."
+            style="height:200px" required></textarea>
+          <br>
+          <input style="width: 100px" type="submit" value="Submit">
+        </form>
+      </div>
+      <!--FORM ENDS-->
+
+      <p
+        style="font-size: 20px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 0px; padding-left: 25px">
+        <b>Follow Me On:</b></p><br>
+
+      <img src="youtube.svg" style="width: 50px; height: 35.017px; margin-left: 945px; margin-bottom: 25px">
+      <img src="x.svg" style="width: 50px; height: 50px; margin-left: 945px; margin-bottom: 25px">
+      <img src="tiktok.svg" style="width: 50px; height: 50px; margin-left: 945px; margin-bottom: 25px">
+
+      <br>
+
+    </div>
+
     <p style="text-align: center; color:#000000; padding-top: 0px; padding-bottom: 0px; padding-left: 25px">
-    © 2024 PhonbireWorks
+      © 2024 PhonbireWorks
     </p>
     <br>
-     <!--FOOTER ENDS-->
-    
-    
+    <!--FOOTER ENDS-->
 
-</div>
-    
-  </body>
+
+
+  </div>
+
+</body>
+
 </html>
