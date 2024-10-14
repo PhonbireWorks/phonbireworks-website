@@ -150,6 +150,8 @@
 
 
 
+
+
   
 
 <script src="https://www.paypal.com/sdk/js?client-id=BAAUqfavrxebRBDh8yT_PjWpf0NvpcqjcsL0AQqcYeHvG41WACzLaNPExCRRy02ijOzk6psGMt9NZHQ56Y&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
@@ -253,113 +255,82 @@ button:hover {
 
 
 
-  <script src="https://pay.google.com/gp/p/js/pay.js"></script>
-  <div id="container"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+
+<h1>Upload and Read Excel File</h1>
+  <input type="file" id="upload" />
+  <table id="outputTable" border="1">
+    <thead id="tableHead"></thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
   <script>
-    const paymentsClient = new google.payments.api.PaymentsClient({environment: 'TEST'});
-    const button = paymentsClient.createButton({onClick: onGooglePayButtonClicked});
-    document.getElementById('container').appendChild(button);
-  </script>
-<script>
-  const baseRequest = {
-    apiVersion: 2,
-    apiVersionMinor: 0
-  };
+    document.getElementById('upload').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        const data = new Uint8Array(e.target.result);
+        const workbook = XLSX.read(data, { type: 'array' });
+        const firstSheetName = workbook.SheetNames[0];
+        const worksheet = workbook.Sheets[firstSheetName];
+        const json = XLSX.utils.sheet_to_json(worksheet);
 
-  const allowedCardNetworks = ["AMEX", "DISCOVER", "JCB", "MASTERCARD", "VISA"];
-  const allowedCardAuthMethods = ["PAN_ONLY", "CRYPTOGRAM_3DS"];
+        // Clear previous table content
+        document.getElementById('tableHead').innerHTML = '';
+        document.getElementById('tableBody').innerHTML = '';
 
-  const tokenizationSpecification = {
-    type: 'PAYMENT_GATEWAY',
-    parameters: {
-      'gateway': 'example',
-      'gatewayMerchantId': 'exampleGatewayMerchantId'
-    }
-  };
+        // Populate table headers
+        const headers = Object.keys(json[0]);
+        const headerRow = document.createElement('tr');
+        headers.forEach(header => {
+          const th = document.createElement('th');
+          th.textContent = header;
+          headerRow.appendChild(th);
+        });
+        document.getElementById('tableHead').appendChild(headerRow);
 
-  const baseCardPaymentMethod = {
-    type: 'CARD',
-    parameters: {
-      allowedAuthMethods: allowedCardAuthMethods,
-      allowedCardNetworks: allowedCardNetworks
-    }
-  };
-
-  const cardPaymentMethod = Object.assign(
-    {},
-    baseCardPaymentMethod,
-    {
-      tokenizationSpecification: tokenizationSpecification
-    }
-  );
-
-  const paymentsClient = new google.payments.api.PaymentsClient({environment: 'TEST'});
-
-  const isReadyToPayRequest = Object.assign(
-    {},
-    baseRequest,
-    {
-      allowedPaymentMethods: [baseCardPaymentMethod]
-    }
-  );
-
-  paymentsClient.isReadyToPay(isReadyToPayRequest)
-    .then(function(response) {
-      if (response.result) {
-        const button = paymentsClient.createButton({onClick: onGooglePayButtonClicked});
-        document.getElementById('container').appendChild(button);
-      }
-    })
-    .catch(function(err) {
-      console.error(err);
+        // Populate table rows
+        json.forEach(row => {
+          const tr = document.createElement('tr');
+          headers.forEach(header => {
+            const td = document.createElement('td');
+            td.textContent = row[header];
+            tr.appendChild(td);
+          });
+          document.getElementById('tableBody').appendChild(tr);
+        });
+      };
+      reader.readAsArrayBuffer(file);
     });
-
-  function onGooglePayButtonClicked() {
-    const paymentDataRequest = Object.assign({}, baseRequest);
-    paymentDataRequest.allowedPaymentMethods = [cardPaymentMethod];
-    paymentDataRequest.transactionInfo = {
-      totalPriceStatus: 'FINAL',
-      totalPrice: '10.00', // Replace with your product price
-      currencyCode: 'USD'
-    };
-    paymentDataRequest.merchantInfo = {
-      merchantName: 'Example Merchant'
-    };
-
-    paymentsClient.loadPaymentData(paymentDataRequest)
-      .then(function(paymentData) {
-        // Handle the response
-        processPayment(paymentData);
-      })
-      .catch(function(err) {
-        console.error(err);
-      });
-  }
-
-  function processPayment(paymentData) {
-    // Handle the payment data response
-    console.log(paymentData);
-    // Send paymentData to your server for processing
-  }
-</script>
-<style>
-#container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-</style>
+  </script>
 
 
-
-
-
-
+<a href="file:///C:/Users/warre/OneDrive/Desktop/WEBSITE%20BACKUPS/phonbireworks-website-main/phonbireworks-website-main/testsheet.zip" download>Download Zip File Locally From Website</a>
+<a href="https://dl.dropboxusercontent.com/scl/fi/oro4ws0luba7uyph57mmp/testsheet.zip?rlkey=2gv3eqdw0sk164ay7ef7gszv0&st=w4blr671&dl=0" download>Download Zip File Dropbox</a>
 
 
     
     <!--FOOTER STARTS-->
-  <div style="border: 0px solid black; border-radius: 0px; width: 1920px; height: auto; background-color: #93ac93; margin: auto">
+  <div style="border: 0px solid black; border-radius: 0px; width: 1920px; height: auto; background-color: #00aad4; margin: auto">
+
   
   <p style="width: 650px; text-align: center; color:#ffffff; padding-top: 25px; padding-bottom: 25px; padding-left: 25px; margin: auto">
    PhonbireWorks is the go-to source for high-quality digital products and services, from digital templates, journals, calendars, stickers, planners, etc. My goal is to provide customizable solutions tailored to your needs. I am passionate about creating digital experiences that make a difference. Let's embark on a digital journey together.

@@ -60,6 +60,7 @@ body {
 .home:hover {
     background-color: #3c3c3c; /* Adds a slight overlay on hover */
   }
+  
 
 .about_me {
     font-weight: bold;
@@ -174,12 +175,18 @@ body {
     border-radius: 50px;
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
     background-position: center; /* Centers the SVG in the button */
-    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
     font-size: 20px;
     cursor: pointer;
+    transition: opacity 0.5s;
   }
-  .svg-button1:hover {
-    background-color: #dbdbdb; /* Adds a slight overlay on hover */
+  .svg-button1:hover { /* Changes button style on hover */
+    opacity: 0.8;
+    color: #000000;
+  }
+  .svg-button1:active { /* Changes button style on click */
+    opacity: 0.2;
+    transform: translateY(4px);
   }
 
 
@@ -194,12 +201,18 @@ body {
     border-radius: 50px;
     background-repeat: no-repeat; /* Prevents the SVG from repeating */
     background-position: center; /* Centers the SVG in the button */
-    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
     font-size: 20px;
     cursor: pointer;
+    transition: opacity 0.5s;
   }
   .svg-button2:hover {
+    opacity: 0.8;
     background-color: #3c3c3c; /* Adds a slight overlay on hover */
+  }
+  .svg-button2:active { /* Changes button style on click */
+    opacity: 0.2;
+    transform: translateY(4px);
   }
 
 
@@ -208,9 +221,16 @@ body {
     margin-right: 10px; /* Use this to change the margin between your gallery scroll pics */
 }
 
+.image-wrapper img:hover { /* Pseudo class to activate the hover preview functionality of the gallery scroll */
+  transform: scale(1.05);
+  opacity: 0.8;
+}/* THIS SETS THE SIZE OF THE PRODUCTS IN THE PRODUCT CATEGORIES_FOLDER */
+
 .image-wrapper img { /* Use this to change the size of your gallery scroll pics */
-    height: 400px; 
+    height: 400px;
+    transition: transform 0.3s ease;
 }
+
 
 .preview-text { /* Use this to change properties of the gallery scroll preview text */
     position: absolute;
@@ -220,7 +240,7 @@ body {
     color: white;
     padding: 5px;
     border-radius: 3px;
-    font-size: 16px;
+    font-size: 32px;
     display: none; /* Initially hidden */
     z-index: 1;
 }
@@ -249,7 +269,8 @@ body {
 }
 
 .image-wrapper2 img { /* Use this to change the size of your gallery scroll pics */
-    height: 600px; 
+    height: 600px;
+    transition: transform 0.3s ease;
 }
 
 .preview-text2 { /* Use this to change properties of the gallery scroll preview text */
@@ -260,7 +281,7 @@ body {
     color: white;
     padding: 5px;
     border-radius: 3px;
-    font-size: 16px;
+    font-size: 32px;
     display: none; /* Initially hidden */
     z-index: 1;
 }
@@ -268,3 +289,29 @@ body {
 .image-wrapper2:hover .preview-text2 { /* Pseudo class to activate the hover preview functionality of the gallery scroll */
     display: block; /* Show on hover */
 }/* THIS SETS THE SIZE OF THE PRODUCTS IN THE PRODUCT CATEGORIES_FOLDER */
+
+.image-wrapper2 img:hover { /* Pseudo class to activate the hover preview functionality of the gallery scroll */
+  transform: scale(1.05);
+  opacity: 0.8;
+}/* THIS SETS THE SIZE OF THE PRODUCTS IN THE PRODUCT CATEGORIES_FOLDER */
+
+
+
+/* ANIMATION STYLES START */
+
+
+.anim2{
+  opacity: 0;
+  transform: translateX(-200px);
+  animation: moveleft 1s linear forwards;
+  animation-delay: 0s;
+}
+@keyframes moveleft{
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+
