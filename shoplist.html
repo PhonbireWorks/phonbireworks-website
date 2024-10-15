@@ -37,19 +37,99 @@
  <img src="banner.svg" alt="Centered Image" class="transform_banner"><!--Home banner-->
     </div>
     
-<!--NAVIGATION MENU BAR-->
-    <div class="navigation_bar">
-    
-    <div style="text-align: center">
-    
-    <button onclick="location.href='index.html'" class="home">HOME</button>
-    <button onclick="location.href='shoplist.html'" class="browse_shop" style="color: #000000; background-color: #ffffff">BROWSE SHOP</button><!--USE MAINTENANCE.HTML TO TEMPORARILY RESTRICT ACCESS TO SHOP-->
-    <button onclick="location.href='contact.html'" class="contact">CONTACT</button>
-    <button onclick="location.href='blog.html'" class="blog">MY BLOG</button>
-    <button onclick="location.href='portfolio.html'" class="my_portfolio">MY PORTFOLIO</button>
-    
+<!--NAVIGATION BAR STARTS-->
+<style>
+  /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(163, 163, 163);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<div class="navigation_bar">
+
+  <div class="navbar">
+    <a href="index.html">HOME</a>
+    <div class="dropdown">
+      <button class="dropbtn">BROWSE
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="shoplist.html">DIGITAL PRODUCTS</a>
+        <a href="#">SERVICES</a>
+      </div>
     </div>
-    </div>
+    <a href="contact.html">CONTACT</a>
+    <a href="blog.html">BLOG</a>
+    <a href="portfolio.html">PORTFOLIO</a>
+  </div>
+
+</div>
+<!--NAVIGATION BAR ENDS-->
     
     </div><!--STICKY ENDS-->
     
@@ -58,7 +138,7 @@
   <div class="webpagewrapper"><!--Webpage Sub-Background Style-->
 
 
-<object type="image/svg+xml" data="shop_hero.svg" class="anim2"></object><!-- ONLY USE THIS WAY TO EMBED SVG FILES IF YOU DON'T INTEND ON USING IT AS A DIV FOR HTML BUTTONS, TEXT, ETC.-->
+<object type="image/svg+xml" data="shop_hero.svg"></object><!-- ONLY USE THIS WAY TO EMBED SVG FILES IF YOU DON'T INTEND ON USING IT AS A DIV FOR HTML BUTTONS, TEXT, ETC.-->
 
 <!--SERVICES & PRODUCTS-->
 <style>
